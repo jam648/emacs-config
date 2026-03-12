@@ -187,7 +187,7 @@ DDSKK による日本語入力環境。`C-x C-j` で SKK モードを起動。
 | gptel | Gemini LLM チャット | `C-c a g` (チャット), `C-c a s` (送信) |
 | aider | AI ペアプログラミング | `C-c a a` (メニュー) |
 | copilot | GitHub Copilot 補完 | `TAB` (承認), `C-f` (承認) |
-| copilot-chat | GitHub Copilot Chat | `C-c c c` (チャット), `C-c c f` (修正), `C-c c o` (最適化) |
+| copilot-chat | GitHub Copilot Chat | `C-c a c` (チャット), `C-c a f` (修正), `C-c a o` (最適化), `C-c a p` (プロンプト) |
 
 モデルは `M-x customize-group RET my-ai RET` でカスタマイズ可能。
 

@@ -143,10 +143,10 @@ Point out unclear passages and suggest alternatives.")
   (setq copilot-chat-model "claude-4.6-sonnet")
 
   :bind
-  (("C-c c c" . copilot-chat-display)      ;; チャット画面を開く
-   ("C-c c p" . copilot-chat-custom-prompt-selection) ;; 選択範囲に指示を出して書き換え提案
-   ("C-c c f" . copilot-chat-fix)          ;; 選択範囲のバグ修正を依頼
-   ("C-c c o" . copilot-chat-optimize)))   ;; 選択範囲のリファクタリングを依頼
+  (("C-c a c" . copilot-chat-display)      ;; チャット画面を開く
+   ("C-c a p" . copilot-chat-custom-prompt-selection) ;; 選択範囲に指示を出して書き換え提案
+   ("C-c a f" . copilot-chat-fix)          ;; 選択範囲のバグ修正を依頼
+   ("C-c a o" . copilot-chat-optimize)))   ;; 選択範囲のリファクタリングを依頼
 
 (provide 'init-ai)
 ;;; init-ai.el ends here
